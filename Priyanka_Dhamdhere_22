@@ -1,0 +1,88 @@
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+import java.time.Month;
+import java.util.Scanner;
+
+class PrintMesg {
+    void WelcomeMesg() {
+        for (int i = 1; i < 100; i++) {
+            System.out.print("*");
+        }
+
+        System.out.println();
+        System.out.println("WELCOME TO RIDE-SHARING CHARGES ESTIMATOR AND COMPARISON SYSTEM");
+        System.out.println();
+        System.out.println("Developed by Jigyasu singh, 42");
+        System.out.println("OODP101 Object Oriented Desgin And Programming");
+        java.util.Date date = new java.util.Date();
+        System.out.println(date);
+
+        for (int i = 1; i < 100; i++) {
+            System.out.print("*");
+        }
+
+    }
+
+}
+
+class information {
+    private int DateOfTravel;
+
+    public int getDay() {
+        return DateOfTravel;
+    }
+
+    public void setDay(int DateOfTravel) {
+        this.DateOfTravel = DateOfTravel;
+    }
+
+    private int MonthOfTravel;
+
+    public int getMonth() {
+        return MonthOfTravel;
+    }
+
+    public void setMonth(int MonthOfTravel) {
+        this.MonthOfTravel = MonthOfTravel;
+    }
+
+    private int year;
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    private float ApproximateKilometerTravel;
+
+    public float getKilometers() {
+        return ApproximateKilometerTravel;
+    }
+
+    public void setKilometers(float ApproximateKilometerTravel) {
+        this.ApproximateKilometerTravel = ApproximateKilometerTravel;
+    }
+
+    private int time;
+
+    public int getTime() {
+        return time;
+    }
+
+    public void setTime(int time) {
+        this.time = time;
+    }
+
+    private DayOfWeek dayOfWeek;
+
+    public DayOfWeek getDayOfWeek() {
+        return dayOfWeek;
+    }
+
+    public void setDayOfWeek(DayOfWeek dayOfWeek) {
+        this.dayOfWeek = dayOfWeek;
+    }
+}
